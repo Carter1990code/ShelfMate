@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "ShelfMate",
+    "shortName": "ShelfMate",
     "slug": "ShelfMate",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,10 +20,14 @@
       },
       "predictiveBackGestureEnabled": false
     },
-    "web": {
-      "output": "static",
-      "favicon": "./assets/images/icon.png"
-    },
+  "web": {
+  "output": "static",
+  "favicon": "./assets/images/icon.png",
+  "name": "ShelfMate",
+  "shortName": "ShelfMate",
+  "themeColor": "#174C3C",
+   "backgroundColor": "#FFFFFF"
+},
     "plugins": [
       "expo-router",
       [
